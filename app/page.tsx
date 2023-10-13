@@ -24,8 +24,7 @@ export default function Home() {
     if (htmlContent) {
       const prompts = htmlContent;
 
-      // const openai_key = process.env.NEXT_PUBLIC_API_KEY
-      console.log(process.env.NEXT_PUBLIC_API_KEY);
+
 
       const configuration = new Configuration({
         apiKey: process.env.NEXT_PUBLIC_API_KEY 
